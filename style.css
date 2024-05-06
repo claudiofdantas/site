@@ -1,0 +1,74 @@
+header {
+    background-color: aqua;
+    padding: 16px;
+    text-align: center;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+footer p {
+    background-color: aqua;
+    width: 100%;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+.hero {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    padding: 16px;
+    text-align: center;
+}
+
+.gallery-container {
+    background-color:darkgray;
+    padding: 24px;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    display: inline-block;
+    padding: 24px;
+    background-size: cover;
+    background-color: #00000000;
+    background-blend-mode: overlay;
+    transition: all 0.5s ease-in-out 0s;
+    color: #FFFFFF00;
+}
+.card:hover {
+    color: #FFFFFF;
+    background-color: #00000090;
+    background-blend-mode: overlay;
+}
+
+.card-1 {
+    background-image: url("images/food-1.jpg");
+}
+
+.card-2 {
+    background-image: url("images/food-2.jpg");
+}
+
+.card-3 {
+    background-image: url("images/food-3.jpg");
+}
